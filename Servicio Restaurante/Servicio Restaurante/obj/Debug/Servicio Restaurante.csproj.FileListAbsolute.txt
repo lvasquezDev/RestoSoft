@@ -1,0 +1,19 @@
+C:\Users\Luis\Proyectos\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.dll
+C:\Users\Luis\Proyectos\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.pdb
+C:\Users\Luis\Proyectos\Servicio Restaurante\Servicio Restaurante\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luis\Proyectos\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.dll
+C:\Users\Luis\Proyectos\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.pdb
+C:\Users\Luis\Dropbox\Compartido\Proyectos Avanzada\Osorio\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.dll
+C:\Users\Luis\Dropbox\Compartido\Proyectos Avanzada\Osorio\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.pdb
+C:\Users\Luis\Dropbox\Compartido\Proyectos Avanzada\Osorio\Servicio Restaurante\Servicio Restaurante\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luis\Dropbox\Compartido\Proyectos Avanzada\Osorio\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.dll
+C:\Users\Luis\Dropbox\Compartido\Proyectos Avanzada\Osorio\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.pdb
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.dll
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.pdb
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\Servicio Restaurante\Servicio Restaurante\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.dll
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.pdb
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.dll
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\Servicio Restaurante\Servicio Restaurante\bin\Servicio Restaurante.pdb
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.dll
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\Servicio Restaurante\Servicio Restaurante\obj\Debug\Servicio Restaurante.pdb

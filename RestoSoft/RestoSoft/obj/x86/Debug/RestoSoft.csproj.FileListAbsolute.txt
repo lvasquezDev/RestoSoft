@@ -1,0 +1,122 @@
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\bin\Debug\RestoSoft.pdb
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmMesero.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.Properties.Resources.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.exe
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.pdb
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe.config
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultaInventario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmSesion.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmDatosUsuario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmCajero.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmCheft.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoCliente.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevaOrden.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmDueno.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoUsuario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmSuperUsuario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmBajaCliente.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarCliente.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmBajaUsuarios.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarUsuarios.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarReservacion.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.NuevaReservacion.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe.config
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.exe
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.pdb
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\bin\Debug\RestoSoft.pdb
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmBajaCliente.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmBajaUsuarios.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmCajero.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmDatosUsuario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarReservacion.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmMesero.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultaInventario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarCliente.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarUsuarios.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevaOrden.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoCliente.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoUsuario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmSesion.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmSuperUsuario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.NuevaReservacion.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.Properties.Resources.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoServicio.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmReportes.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmServicioDomicilio.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarServicioDomicilio.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultaDomicilio.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarOrdenes.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarOrden.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarServicio.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmVerServicios.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarClientes.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarReservaciones.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarUsuarios.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarInvArticulo.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarInvArticulo.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoArtInventario.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarPlatillos.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarPlatillos.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarPlatillo.resources
+C:\Users\Paulina\Documents\Visual Studio 2010\Projects\Programacion Avanzada\Proyecto\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoPlatillo.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe.config
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.exe
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.pdb
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\bin\Debug\RestoSoft.pdb
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmBajaCliente.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmBajaUsuarios.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmCajero.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultaDomicilio.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarClientes.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarOrdenes.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarPlatillos.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarReservaciones.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultarUsuarios.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmDatosUsuario.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarInvArticulo.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarOrden.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarPlatillos.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarReservacion.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarServicio.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmEliminarServicioDomicilio.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmMesero.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmConsultaInventario.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarCliente.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarInvArticulo.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarPlatillo.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmModificarUsuarios.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevaOrden.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoArtInventario.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoCliente.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoPlatillo.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoServicio.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmNuevoUsuario.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmReportes.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmServicioDomicilio.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmSesion.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmSuperUsuario.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.FrmVerServicios.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.NuevaReservacion.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.Properties.Resources.resources
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Paulina\Desktop\RESPALDO\RestoSoft\RestoSoft\obj\x86\Debug\ResGen.write.1.tlog
+E:\RestoSoft\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe.config
+E:\RestoSoft\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.exe
+E:\RestoSoft\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.pdb
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\RestoSoft\RestoSoft\bin\Debug\RestoSoft.exe.config
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.exe
+C:\Users\sistemas\Documents\Proyectos\RestoSoft\RestoSoft\RestoSoft\obj\x86\Debug\RestoSoft.pdb

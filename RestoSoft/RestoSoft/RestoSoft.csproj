@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E0E288C-021F-4D13-B28F-EE6DF7358AE9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RestoSoft</RootNamespace>
+    <AssemblyName>RestoSoft</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RestoSoft.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consultas.cs" />
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetClientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDomicilio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDomicilio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetMesas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetMesas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetOrdenes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetOrdenes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetProductos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetProductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetReservaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetReservaciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetUsuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBajaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBajaCliente.Designer.cs">
+      <DependentUpon>FrmBajaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBajaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBajaUsuarios.Designer.cs">
+      <DependentUpon>FrmBajaUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCajero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCajero.Designer.cs">
+      <DependentUpon>FrmCajero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaDomicilio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaDomicilio.Designer.cs">
+      <DependentUpon>FrmConsultaDomicilio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarClientes.Designer.cs">
+      <DependentUpon>FrmConsultarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarOrdenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarOrdenes.Designer.cs">
+      <DependentUpon>FrmConsultarOrdenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarPlatillos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarPlatillos.Designer.cs">
+      <DependentUpon>FrmConsultarPlatillos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarReservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarReservaciones.Designer.cs">
+      <DependentUpon>FrmConsultarReservaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarUsuarios.Designer.cs">
+      <DependentUpon>FrmConsultarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDatosUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDatosUsuario.Designer.cs">
+      <DependentUpon>FrmDatosUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarInvArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarInvArticulo.Designer.cs">
+      <DependentUpon>FrmEliminarInvArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarOrden.Designer.cs">
+      <DependentUpon>FrmEliminarOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarPlatillos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarPlatillos.Designer.cs">
+      <DependentUpon>FrmEliminarPlatillos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarReservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarReservacion.Designer.cs">
+      <DependentUpon>FrmEliminarReservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarServicio.Designer.cs">
+      <DependentUpon>FrmEliminarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarServicioDomicilio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarServicioDomicilio.Designer.cs">
+      <DependentUpon>FrmEliminarServicioDomicilio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMesero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMesero.Designer.cs">
+      <DependentUpon>FrmMesero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultaInventario.Designer.cs">
+      <DependentUpon>FrmConsultaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificarCliente.Designer.cs">
+      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificarInvArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificarInvArticulo.Designer.cs">
+      <DependentUpon>FrmModificarInvArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificarPlatillo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificarPlatillo.Designer.cs">
+      <DependentUpon>FrmModificarPlatillo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificarUsuarios.Designer.cs">
+      <DependentUpon>FrmModificarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevaOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevaOrden.Designer.cs">
+      <DependentUpon>FrmNuevaOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevoArtInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoArtInventario.Designer.cs">
+      <DependentUpon>FrmNuevoArtInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoCliente.Designer.cs">
+      <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevoPlatillo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoPlatillo.Designer.cs">
+      <DependentUpon>FrmNuevoPlatillo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevoServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoServicio.Designer.cs">
+      <DependentUpon>FrmNuevoServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNuevoUsuario.Designer.cs">
+      <DependentUpon>FrmNuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServicioDomicilio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServicioDomicilio.Designer.cs">
+      <DependentUpon>FrmServicioDomicilio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSesion.Designer.cs">
+      <DependentUpon>FrmSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSuperUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSuperUsuario.Designer.cs">
+      <DependentUpon>FrmSuperUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerServicios.Designer.cs">
+      <DependentUpon>FrmVerServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionDeUsuario.cs" />
+    <Compile Include="NuevaReservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaReservacion.Designer.cs">
+      <DependentUpon>NuevaReservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Replicacion.cs" />
+    <Compile Include="RestosoftDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetMesas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetMesas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetModificarClientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetModificarClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetModificarInventario.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetModificarInventario.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetModificarPorductos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetModificarPorductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetModificarUsuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetModificarUsuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetOrdenesBuenas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetOrdenesBuenas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestosoftDataSetServicio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestosoftDataSetServicio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBajaCliente.resx">
+      <DependentUpon>FrmBajaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBajaUsuarios.resx">
+      <DependentUpon>FrmBajaUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCajero.resx">
+      <DependentUpon>FrmCajero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaDomicilio.resx">
+      <DependentUpon>FrmConsultaDomicilio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarClientes.resx">
+      <DependentUpon>FrmConsultarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarOrdenes.resx">
+      <DependentUpon>FrmConsultarOrdenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarPlatillos.resx">
+      <DependentUpon>FrmConsultarPlatillos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarReservaciones.resx">
+      <DependentUpon>FrmConsultarReservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarUsuarios.resx">
+      <DependentUpon>FrmConsultarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDatosUsuario.resx">
+      <DependentUpon>FrmDatosUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarInvArticulo.resx">
+      <DependentUpon>FrmEliminarInvArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarOrden.resx">
+      <DependentUpon>FrmEliminarOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarPlatillos.resx">
+      <DependentUpon>FrmEliminarPlatillos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarReservacion.resx">
+      <DependentUpon>FrmEliminarReservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarServicio.resx">
+      <DependentUpon>FrmEliminarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarServicioDomicilio.resx">
+      <DependentUpon>FrmEliminarServicioDomicilio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMesero.resx">
+      <DependentUpon>FrmMesero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultaInventario.resx">
+      <DependentUpon>FrmConsultaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificarCliente.resx">
+      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificarInvArticulo.resx">
+      <DependentUpon>FrmModificarInvArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificarPlatillo.resx">
+      <DependentUpon>FrmModificarPlatillo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificarUsuarios.resx">
+      <DependentUpon>FrmModificarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevaOrden.resx">
+      <DependentUpon>FrmNuevaOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoArtInventario.resx">
+      <DependentUpon>FrmNuevoArtInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoCliente.resx">
+      <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoPlatillo.resx">
+      <DependentUpon>FrmNuevoPlatillo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoServicio.resx">
+      <DependentUpon>FrmNuevoServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNuevoUsuario.resx">
+      <DependentUpon>FrmNuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServicioDomicilio.resx">
+      <DependentUpon>FrmServicioDomicilio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSesion.resx">
+      <DependentUpon>FrmSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSuperUsuario.resx">
+      <DependentUpon>FrmSuperUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerServicios.resx">
+      <DependentUpon>FrmVerServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaReservacion.resx">
+      <DependentUpon>NuevaReservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="DataSetClientes.xsc">
+      <DependentUpon>DataSetClientes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetClientes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetClientes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetClientes.xss">
+      <DependentUpon>DataSetClientes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDomicilio.xsc">
+      <DependentUpon>DataSetDomicilio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDomicilio.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDomicilio.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetDomicilio.xss">
+      <DependentUpon>DataSetDomicilio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMesas.xsc">
+      <DependentUpon>DataSetMesas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMesas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetMesas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetMesas.xss">
+      <DependentUpon>DataSetMesas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOrdenes.xsc">
+      <DependentUpon>DataSetOrdenes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetOrdenes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetOrdenes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetOrdenes.xss">
+      <DependentUpon>DataSetOrdenes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetProductos.xsc">
+      <DependentUpon>DataSetProductos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetProductos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetProductos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetProductos.xss">
+      <DependentUpon>DataSetProductos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetReservaciones.xsc">
+      <DependentUpon>DataSetReservaciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetReservaciones.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetReservaciones.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetReservaciones.xss">
+      <DependentUpon>DataSetReservaciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetUsuarios.xsc">
+      <DependentUpon>DataSetUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetUsuarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetUsuarios.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetUsuarios.xss">
+      <DependentUpon>DataSetUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RestosoftDataSet.xsc">
+      <DependentUpon>RestosoftDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSet.xss">
+      <DependentUpon>RestosoftDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSet1.xsc">
+      <DependentUpon>RestosoftDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSet1.xss">
+      <DependentUpon>RestosoftDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSet2.xsc">
+      <DependentUpon>RestosoftDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSet2.xss">
+      <DependentUpon>RestosoftDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetMesas.xsc">
+      <DependentUpon>RestosoftDataSetMesas.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetMesas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetMesas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetMesas.xss">
+      <DependentUpon>RestosoftDataSetMesas.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarClientes.xsc">
+      <DependentUpon>RestosoftDataSetModificarClientes.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarClientes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetModificarClientes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetModificarClientes.xss">
+      <DependentUpon>RestosoftDataSetModificarClientes.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarInventario.xsc">
+      <DependentUpon>RestosoftDataSetModificarInventario.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarInventario.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetModificarInventario.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetModificarInventario.xss">
+      <DependentUpon>RestosoftDataSetModificarInventario.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarPorductos.xsc">
+      <DependentUpon>RestosoftDataSetModificarPorductos.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarPorductos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetModificarPorductos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetModificarPorductos.xss">
+      <DependentUpon>RestosoftDataSetModificarPorductos.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarUsuarios.xsc">
+      <DependentUpon>RestosoftDataSetModificarUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetModificarUsuarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetModificarUsuarios.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetModificarUsuarios.xss">
+      <DependentUpon>RestosoftDataSetModificarUsuarios.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetOrdenesBuenas.xsc">
+      <DependentUpon>RestosoftDataSetOrdenesBuenas.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetOrdenesBuenas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetOrdenesBuenas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetOrdenesBuenas.xss">
+      <DependentUpon>RestosoftDataSetOrdenesBuenas.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetServicio.xsc">
+      <DependentUpon>RestosoftDataSetServicio.xsd</DependentUpon>
+    </None>
+    <None Include="RestosoftDataSetServicio.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestosoftDataSetServicio.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestosoftDataSetServicio.xss">
+      <DependentUpon>RestosoftDataSetServicio.xsd</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\Baja Usuario.jpg" />
+    <Content Include="Imagenes\BajaCliente.jpg" />
+    <Content Include="Imagenes\Datos.jpg" />
+    <Content Include="Imagenes\Escudo.png" />
+    <Content Include="Imagenes\esquinas-ornamentales.jpg" />
+    <Content Include="Imagenes\Fondo.png" />
+    <Content Include="Imagenes\Fondo_Inicio.png" />
+    <Content Include="Imagenes\grapes.png" />
+    <Content Include="Imagenes\Nuevo Usuario.jpg" />
+    <Content Include="Imagenes\NuevoCliente.jpg" />
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\ServiceReference1\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
